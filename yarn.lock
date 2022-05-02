@@ -2096,12 +2096,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-wasm@npm:^5.1.2":
-  version: 5.1.2
-  resolution: "@rollup/plugin-wasm@npm:5.1.2"
+"@rollup/plugin-wasm@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "@rollup/plugin-wasm@npm:5.2.0"
   peerDependencies:
     rollup: ^1.20.0 || ^2.0.0
-  checksum: ba8d02fd351900b7e1fa722b7f71cf420dd5b67dcade3bf91f7ac60d75fca1fc4ed61ff5cecfe033dc9bfd7f857ab374d6858de74fcf5fae3acebfbc193ffa01
+  checksum: b2ea6fc84d90d0617b79bd9ea957a384019f9ff862fb3da86c4c533b0fa5aba4b8f78ab978e511283e9d68d16091ff6d07d9177ac5b16bea71a67794f859a01b
   languageName: node
   linkType: hard
 
@@ -7667,18 +7667,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^0.7.5":
-  version: 0.7.5
-  resolution: "h3@npm:0.7.5"
-  dependencies:
-    cookie-es: ^0.5.0
-    destr: ^1.1.1
-    radix3: ^0.1.1
-    ufo: ^0.8.3
-  checksum: 43ce2109fa1106ef65614181f6db5dfd2d9ff91e5b9683c9fb3923418289ebf9e2e88878d8d76ef859e14cc4122a3dd38ebb997455fec0649ebe7e97440f9891
-  languageName: node
-  linkType: hard
-
 "h3@npm:^0.7.6":
   version: 0.7.6
   resolution: "h3@npm:0.7.6"
@@ -9869,9 +9857,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nitropack@npm:^0.3.8":
-  version: 0.3.8
-  resolution: "nitropack@npm:0.3.8"
+"nitropack@npm:^0.3.9":
+  version: 0.3.9
+  resolution: "nitropack@npm:0.3.9"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.2.0
     "@netlify/functions": ^1.0.0
@@ -9883,7 +9871,7 @@ __metadata:
     "@rollup/plugin-node-resolve": ^13.2.1
     "@rollup/plugin-replace": ^4.0.0
     "@rollup/plugin-virtual": ^2.1.0
-    "@rollup/plugin-wasm": ^5.1.2
+    "@rollup/plugin-wasm": ^5.2.0
     "@rollup/pluginutils": ^4.2.1
     "@types/jsdom": ^16.2.14
     "@vercel/nft": ^0.18.2
@@ -9905,7 +9893,7 @@ __metadata:
     fs-extra: ^10.1.0
     globby: ^13.1.1
     gzip-size: ^7.0.0
-    h3: ^0.7.5
+    h3: ^0.7.6
     hasha: ^5.2.2
     hookable: ^5.1.1
     http-proxy: ^1.18.1
@@ -9917,16 +9905,16 @@ __metadata:
     mime: ^3.0.0
     mlly: ^0.5.2
     mri: ^1.2.0
-    node-fetch: ^3.2.3
+    node-fetch: ^3.2.4
     ohash: ^0.1.0
-    ohmyfetch: ^0.4.15
+    ohmyfetch: ^0.4.16
     pathe: ^0.2.0
     perfect-debounce: ^0.1.3
     pkg-types: ^0.3.2
     pretty-bytes: ^6.0.0
     process: ^0.11.10
     radix3: ^0.1.1
-    rollup: ^2.70.2
+    rollup: ^2.71.1
     rollup-plugin-terser: ^7.0.2
     rollup-plugin-visualizer: ^5.6.0
     scule: ^0.2.1
@@ -9938,13 +9926,13 @@ __metadata:
     table: ^6.8.0
     ufo: ^0.8.3
     unenv: ^0.4.6
-    unimport: ^0.1.7
+    unimport: ^0.1.8
     unstorage: ^0.3.3
     util: ^0.12.4
   bin:
     nitro: dist/cli.mjs
     nitropack: dist/cli.mjs
-  checksum: 1e243fb06dbccfd39be76a9ce17fd18cb857bcd35e5c8534d0e47b2ce6b2d9453c2cd1983954908c662a92cdadfbba61033dbc33bc11c7e4353a9784328bf7c6
+  checksum: 76ccfc06bb9fe8bf863a9ffc3bfd2bd8c0f173625722d662c04fa1308a77e68337a7b3c276920e9c9a53ca0d98ea1822b0e23fe93b11a799dc675205ebf823da
   languageName: node
   linkType: hard
 
@@ -10474,7 +10462,7 @@ __metadata:
     knitwork: ^0.1.1
     magic-string: ^0.26.1
     mlly: ^0.5.2
-    nitropack: ^0.3.8
+    nitropack: ^0.3.9
     nuxi: ^3.0.0-rc.1
     ohash: ^0.1.0
     ohmyfetch: ^0.4.16
@@ -12296,7 +12284,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.59.0, rollup@npm:^2.70.1, rollup@npm:^2.70.2":
+"rollup@npm:^2.59.0, rollup@npm:^2.70.1":
   version: 2.70.2
   resolution: "rollup@npm:2.70.2"
   dependencies:
@@ -13824,23 +13812,6 @@ __metadata:
     upath: ^2.0.1
     util: ^0.12.4
   checksum: 4c244785efb087dc85684daf9816e59e08b4f1521a8432b79a8dce5419049d6951e9da5526e02d7f66f5284dcd396bba57ab581220c00fe850640a3fe34e4c85
-  languageName: node
-  linkType: hard
-
-"unimport@npm:^0.1.7":
-  version: 0.1.7
-  resolution: "unimport@npm:0.1.7"
-  dependencies:
-    "@rollup/pluginutils": ^4.2.1
-    escape-string-regexp: ^5.0.0
-    globby: ^13.1.1
-    local-pkg: ^0.4.1
-    magic-string: ^0.26.1
-    mlly: ^0.5.2
-    pathe: ^0.2.0
-    scule: ^0.2.1
-    unplugin: ^0.6.2
-  checksum: 5ffceaf50cd30aa45daa6df90138d0f69bb0244481292f80f066f720ade8bfcc132fa1ee623e01f7cd7f5ec96ce56730b2dfd4a947768dc655b5723970ef481d
   languageName: node
   linkType: hard
 
